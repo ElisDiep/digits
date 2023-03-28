@@ -6,7 +6,7 @@
   --matr-navbar-bg: #b97c11;
   --matr-navbar-bg-rgb: 185, 124, 17;
   --matr-navbar-text-color: white;
-  --matr-navbar-highligt-text: #b97c11;
+  --matr-navbar-highligt-text: #1485af;
 }
 
 /* Change bootstrap variable values.
@@ -47,4 +47,8 @@ footer, footer a {
 
 .bg-dark a.dropdown-item {
   color: var(--matr-navbar-bg);
+}
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highligt-text);
 }
