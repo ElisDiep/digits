@@ -13,15 +13,11 @@
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
 body {
-<<<<<<< Updated upstream
   --bs-light-rgb: var(--matr-navbar-bg-rgb);
-  background: url("https://i.pinimg.com/originals/5d/3a/43/5d3a43a45704906919ade25b21b360a5.jpg");
-=======
   --bs-dark: var(--matr-navbar-bg);
   --bs-dark-rgb: var(--matr-navbar-bg-rgb);
   background: url("https://i.pinimg.com/originals/5d/3a/43/5d3a43a45704906919ade25b21b360a5.jpg");
   background-size: auto;
->>>>>>> Stashed changes
 }
 
 /* Set the alert background on the signin and signup pages. */
