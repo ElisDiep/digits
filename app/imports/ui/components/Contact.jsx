@@ -18,7 +18,7 @@ const Contact = ({ contact }) => (
 
 // Require a document to be passed to this component.
 Contact.propTypes = {
-  contact: PropTypes.shape({
+  contct: PropTypes.shape({
     firstname: PropTypes.string,
     lastname: PropTypes.string,
     address: PropTypes.string,
