@@ -3,16 +3,25 @@
 
 /* Set up some CSS variables to theme the application. */
 :root {
-  --matr-navbar-bg: #ECECEC;
-  --matr-navbar-bg-rgb: 236, 236, 236;
+  --matr-navbar-bg: #0f212f;
+  --matr-navbar-bg-rgb: 101, 96, 96;
+  --matr-navbar-text-color: white;
+  --matr-navbar-highlight-text: #0f212f;
 }
 
 /* Change bootstrap variable values.
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
 body {
+<<<<<<< Updated upstream
   --bs-light-rgb: var(--matr-navbar-bg-rgb);
   background: url("https://i.pinimg.com/originals/5d/3a/43/5d3a43a45704906919ade25b21b360a5.jpg");
+=======
+  --bs-dark: var(--matr-navbar-bg);
+  --bs-dark-rgb: var(--matr-navbar-bg-rgb);
+  background: url("https://i.pinimg.com/originals/5d/3a/43/5d3a43a45704906919ade25b21b360a5.jpg");
+  background-size: auto;
+>>>>>>> Stashed changes
 }
 
 /* Set the alert background on the signin and signup pages. */
@@ -26,4 +35,20 @@ body {
   color: var(--bs-dark);
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+footer, footer a {
+  color: var(--matr-navbar-text-color);
+}
+
+body .navbar {
+  --bs-navbar-active-color: var(--matr-navbar-highlight-text);
+  --bs-navbar-brand-color: var(--matr-navbar-text-color);
+  --bs-navbar-brand-hover-color: var(--matr-navbar-highlight-text);
+  --bs-navbar-color: var(--matr-navbar-text-color);
+  --bs-navbar-hover-color: var(--matr-navbar-highlight-text);
+}
+
+.bg-dark a.dropdown-item {
+  color: var(--matr-navbar-bg);
 }
