@@ -1,5 +1,11 @@
 # Digits 
 
+## Table of contents
+
+ * [Landing Page](#the-landing-page)
+ * [Add Contact Page](#add-contact-page)
+ * [List Contact Page](#list-contact-page)
+
 ## The landing page 
 <img src="doc/landing.png">
 
