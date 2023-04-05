@@ -1,10 +1,20 @@
 # Digits 
 
 ## Table of contents
-
+* [Installation](#installation)
  * [Landing Page](#the-landing-page)
  * [Add Contact Page](#add-contact-page)
  * [List Contact Page](#list-contact-page)
+## Installation
+To install
+
+* First download Meteor
+* Second Make a copy of digits repository
+* Third open application in Intelij
+* Fourth in the terminal cd into apps
+* Fifth enter "meteor npm install"
+* Sixth enter "meteor npm run start"
+
 
 ## The landing page 
 <img src="doc/landing.png">
